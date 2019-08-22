@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  baseApp
+//
+//  Created by Fagron Technologies on 25/04/18.
+//  Copyright © 2018 Fagron Technologies. All rights reserved.
+//
+MP_APP_NAME = baseApp
+MP_VERSION = 1.1
+MP_BUNDLE_ID = br.com.fagrontechnologies.baseApp
+MP_TENANT_ID = mobyPharma-5.0

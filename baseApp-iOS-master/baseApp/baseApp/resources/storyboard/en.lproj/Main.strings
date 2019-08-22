@@ -1,0 +1,18 @@
+
+/* Class = "UINavigationItem"; title = "Telefones"; ObjectID = "O18-5V-00b"; */
+"O18-5V-00b.title" = "Telefones";
+
+/* Class = "UINavigationItem"; title = "Main"; ObjectID = "Wn4-Eh-VY4"; */
+"Wn4-Eh-VY4.title" = "Main";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Z5v-UQ-BLn"; */
+"Z5v-UQ-BLn.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "Voltar"; ObjectID = "aI9-1u-eVO"; */
+"aI9-1u-eVO.title" = "Voltar";
+
+/* Class = "UIButton"; normalTitle = "Telefones"; ObjectID = "awG-4S-g72"; */
+"awG-4S-g72.normalTitle" = "Telefones";
+
+/* Class = "UILabel"; text = "Bem-vindo"; ObjectID = "b0J-Ac-Fjy"; */
+"b0J-Ac-Fjy.text" = "Bem-vindo";

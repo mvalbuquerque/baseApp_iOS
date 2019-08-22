@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="10F-jc-atL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Telefones-->
+        <scene sceneID="pRD-Xv-nUZ">
+            <objects>
+                <tableViewController id="qRi-Sg-Rcu" customClass="PhonesViewController" customModule="baseApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="xDS-NM-bW6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="phone" id="D9u-S7-KLQ" customClass="PhoneCell" customModule="baseApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="D9u-S7-KLQ" id="lil-iT-o0X">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qRi-Sg-Rcu" id="c7c-2T-SGq"/>
+                            <outlet property="delegate" destination="qRi-Sg-Rcu" id="NQU-71-pqJ"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Telefones" id="O18-5V-00b">
+                        <barButtonItem key="backBarButtonItem" title="Voltar" id="ntg-w3-iTk"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P9M-2f-Ppv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386" y="96"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="PDY-xW-liV">
+            <objects>
+                <viewController id="wi3-8f-6vl" customClass="ViewController" customModule="baseApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xy0-bX-mwN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awG-4S-g72">
+                                <rect key="frame" x="154.5" y="318.5" width="66" height="30"/>
+                                <state key="normal" title="Telefones"/>
+                                <connections>
+                                    <segue destination="qRi-Sg-Rcu" kind="show" id="CBP-jl-Yrw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="awG-4S-g72" firstAttribute="centerX" secondItem="xy0-bX-mwN" secondAttribute="centerX" id="DgV-a3-8Dc"/>
+                            <constraint firstItem="awG-4S-g72" firstAttribute="centerY" secondItem="xy0-bX-mwN" secondAttribute="centerY" id="YGR-nT-MWh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U0p-gL-S3w"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main" id="Wn4-Eh-VY4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oFP-GI-XJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="513" y="96"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="50x-oY-j0d">
+            <objects>
+                <navigationController id="10F-jc-atL" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wJM-pc-njl">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="wi3-8f-6vl" kind="relationship" relationship="rootViewController" id="7kL-HA-ddS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FSa-u8-yRB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-372" y="96"/>
+        </scene>
+    </scenes>
+</document>

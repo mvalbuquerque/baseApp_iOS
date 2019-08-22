@@ -1,0 +1,11 @@
+/* 
+  pt-br.strings
+  baseApp
+
+  Created by Fagron Technologies on 25/04/18.
+  Copyright © 2018 Fagron Technologies. All rights reserved.
+*/
+"wellcome.label.wellcome" = "Wellcome";
+"general.alert.warning" = "Base app";
+"phones.header.callcenter" = "Callcenter";
+"phones.header.others" = "Others";
