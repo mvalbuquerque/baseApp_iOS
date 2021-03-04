@@ -2,8 +2,8 @@
 //  PhoneModelMapper.swift
 //  baseApp
 //
-//  Created by Fagron Technologies on 09/03/18.
-//  Copyright © 2018 Fagron Technologies. All rights reserved.
+//  Created by mvalbuquerque on 09/03/18.
+//  Copyright © 2018 mvalbuquerque. All rights reserved.
 //
 
 import Foundation
