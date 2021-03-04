@@ -2,8 +2,8 @@
 //  PhonesRepository.swift
 //  baseApp
 //
-//  Created by Fagron Technologies on 06/03/18.
-//  Copyright © 2018 Fagron Technologies. All rights reserved.
+//  Created by mvalbuquerque on 06/03/18.
+//  Copyright © 2018 mvalbuquerques. All rights reserved.
 //
 
 import Foundation
