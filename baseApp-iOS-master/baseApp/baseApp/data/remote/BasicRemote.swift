@@ -3,7 +3,7 @@
 //  baseApp
 //
 //  Created by mvalbuquerque on 06/03/2018.
-//  Copyright © 2018 Fagron Technologies. All rights reserved.
+//  Copyright © 2018 mvalbuquerque. All rights reserved.
 //
 
 import Alamofire
